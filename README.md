@@ -2,7 +2,6 @@
 
 Jupyter notebooks for learning electromagnetism using Python.
 
-
 ## Prerequisites
 
 Install Python, pip, and Jupyter before setting up the project.
@@ -31,7 +30,6 @@ Or install Jupyter system-wide:
 ```bash
 sudo pacman -S jupyter-notebook
 ```
-
 
 ## Setup
 
@@ -82,13 +80,14 @@ Available kernels:
   emt_env    C:\Users\user\AppData\Roaming\jupyter\kernels\emt_env
 ```
 
-
 ## Usage
 
 ```bash
 jupyter-lab
 ```
 
+<img width="1679" height="1062" alt="jupyter" src="https://github.com/user-attachments/assets/4f4ee901-444b-4796-8f2d-bce4907442ec" />
+Select the kernel named **Python (EMT)**, and start coding.
 
 ## Troubleshooting
 
