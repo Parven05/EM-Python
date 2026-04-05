@@ -87,6 +87,7 @@ jupyter-lab
 ```
 
 <img width="1679" height="1062" alt="jupyter" src="https://github.com/user-attachments/assets/4f4ee901-444b-4796-8f2d-bce4907442ec" />
+
 Select the kernel named **Python (EMT)**, and start coding.
 
 ## Troubleshooting
