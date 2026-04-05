@@ -2,6 +2,7 @@
 
 Jupyter notebooks for learning electromagnetism using Python.
 
+
 ## Prerequisites
 
 Install Python, pip, and Jupyter before setting up the project.
@@ -30,6 +31,7 @@ Or install Jupyter system-wide:
 ```bash
 sudo pacman -S jupyter-notebook
 ```
+
 
 ## Setup
 
@@ -65,12 +67,21 @@ python -m ipykernel install --user --name=EMT_env --display-name "Python (EMT)"
 ```bash
 jupyter kernelspec list
 ```
-Expected output:
+
+**Linux / macOS** — expected output:
 ```
 Available kernels:
   python3    /home/user/dev/EM-Python/.venv/share/jupyter/kernels/python3
   emt_env    /home/user/.local/share/jupyter/kernels/emt_env
 ```
+
+**Windows** — expected output:
+```
+Available kernels:
+  python3    C:\Users\user\dev\EM-Python\.venv\share\jupyter\kernels\python3
+  emt_env    C:\Users\user\AppData\Roaming\jupyter\kernels\emt_env
+```
+
 
 ## Usage
 
@@ -78,16 +89,18 @@ Available kernels:
 jupyter-lab
 ```
 
+
 ## Troubleshooting
 
 If something goes wrong, remove the kernel and virtual environment, then redo the setup steps.
 
+**Linux / macOS**
 ```bash
 jupyter kernelspec uninstall emt_env
 rm -rf .venv
 ```
 
-On Windows:
+**Windows**
 ```powershell
 jupyter kernelspec uninstall emt_env
 Remove-Item -Recurse -Force .venv
